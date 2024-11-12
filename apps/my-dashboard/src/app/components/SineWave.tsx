@@ -34,18 +34,18 @@ const SineWave: React.FC = () => {
         const y = height / 2 + amplitude * Math.sin(frequency * (x + time - width / 2))
         context.lineTo(x, y)
       }
-      context.strokeStyle = 'blue'
+      context.strokeStyle = 'green'
       context.stroke()
       time += 1
 
       // Draw border
-      context.strokeStyle = 'white'
+      context.strokeStyle = 'gray'
       context.lineWidth = 2
       context.strokeRect(0, 0, width, height)
 
       // Draw x-axis and y-axis labels
       context.font = '12px Arial'
-      context.fillStyle = 'white'
+      context.fillStyle = 'gray'
       context.fillText('3π', width - 30, height / 2 + 20)
       context.fillText('-3π', 10, height / 2 + 20)
       context.fillText('1', width / 2 + 10, 20)
