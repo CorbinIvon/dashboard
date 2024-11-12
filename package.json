@@ -19,5 +19,19 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@loaders.gl/core": "^4.3.2",
+    "@loaders.gl/gltf": "^4.3.2",
+    "@react-spring/three": "^9.7.5",
+    "@react-three/drei": "^9.115.0",
+    "@react-three/fiber": "^8.17.10",
+    "@tweenjs/tween.js": "^25.0.0",
+    "gltf-pipeline": "^4.1.0",
+    "postprocessing": "^6.36.4",
+    "react-use": "^17.5.1",
+    "tailwindcss": "^3.4.14",
+    "three": "^0.170.0",
+    "zustand": "^5.0.1"
+  }
 }
