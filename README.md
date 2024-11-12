@@ -1,3 +1,16 @@
+# Notes
+
+```bash
+- Enable Remote Caching (recommended): npx turbo login
+   - Learn more: https://turbo.build/repo/remote-cache
+
+- Run commands with Turborepo:
+   - npm run build: Build all apps and packages
+   - npm run dev: Develop all apps and packages
+   - npm run lint: Lint all apps and packages
+- Run a command twice to hit cache
+```
+
 # Turborepo starter
 
 This is an official starter Turborepo.
